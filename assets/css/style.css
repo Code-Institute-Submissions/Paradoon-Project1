@@ -1,0 +1,30 @@
+
+
+header {
+    background-color: #393e46;
+    padding: 0px;
+}
+
+.ourdesign {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#menu li {
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+body {
+    padding: 0px;
+}
