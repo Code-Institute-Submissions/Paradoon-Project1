@@ -56,9 +56,34 @@ body {
     padding: 0px;
 }
 
-.p3 {
-    text: bold;
-    color: grey;
-    font: 'Ubuntu', sans-serif;
-    opacity: .5; 
+#p1 {
+    color: #9b9ea2;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: .1;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#p2 {
+    color: #9b9ea2;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+}
+
+#p1, #p2 {
+    border: 10px;
+    border-color: #393e46;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#s1 {
+    margin-top: 50px;
+    border: 10px;
+    border-color: #9b9ea2;
+    border-style: solid;
+    border-radius: 5px;
 }
