@@ -35,7 +35,7 @@ header {
 #menu a {
     color: #d7d9da;
     margin: 0 0 0 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     text-align: center;
     border: 2px;
@@ -54,4 +54,11 @@ header {
 
 body {
     padding: 0px;
+}
+
+.p3 {
+    text: bold;
+    color: grey;
+    font: 'Ubuntu', sans-serif;
+    opacity: .5; 
 }
