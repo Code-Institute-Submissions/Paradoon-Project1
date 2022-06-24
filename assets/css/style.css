@@ -23,6 +23,7 @@ header {
     background-color: #393e46;
     border-radius: 0 0 50px 50px;
     padding: 5px;
+    text-indent: 50px;
 }
 
 #menu li {
@@ -67,11 +68,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 200%;
     margin-left: 100px;
+    margin-top: 100px;
     font-weight: bold;
-    border-radius: 50px;
     padding: 10px;
     width: 500px;
+    border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
 #h2h {
@@ -79,23 +82,46 @@ body {
     font-size: 200%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 #h2h ul {
     padding: 0;
+    text-indent: 450px;
+    margin-left: -800px;
 }
 
 #h2h li {
-    text-indent: 350px;
     display: inline-block;
 }
 
-.textbox {
-    background-color: red;
+#h2h a {
+    margin: 0px;
+    padding: 10px;
+    flex: 1 1 0;
 }
 
-.textbox h2 p div {
-    background-color: red;
+#textbox {
+    display: flex;
+}
+
+#left-box {
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    flex: 1 1 0;
+}
+
+#center-box {
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    flex: 1 1 0;
+}
+
+#right-box {
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    flex: 1 1 0;
 }
 
 #h3h {
@@ -126,8 +152,8 @@ body {
 
 /* Section pieces - border: solid 10px #9b9ea2; background-color: #f3f3f3; */
 #s1 {
-    margin-top: 20px;
-    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 #p4 {
@@ -152,10 +178,10 @@ body {
 .cavepaint {
     width: 25%;
     height: 25%;
-    float: center;
-    padding: 15px 15px 15px 15px;
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-    -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
-    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    padding: 0px;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
+    float: right;
+    margin-right: 200px;
 }
