@@ -175,13 +175,44 @@ body {
     margin-top: 150px;
 }
 
+#carve-box {
+    display: flex;
+}
+
+#lct {
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    flex: 1 1 0;
+}
+
+#cct {
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    flex: 1 1 0;
+}
+
+#lci {
+    margin: 0px;
+    flex: 1;
+}
+
+#cci {
+    margin: 0px;
+    flex: 1;
+}
+
 .cavepaint {
-    width: 25%;
+    width: 100%;
     height: 25%;
-    padding: 0px;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
-    float: right;
-    margin-right: 200px;
+}
+
+.cavepaint2 {
+    width: 100%;
+    height: 25%;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
