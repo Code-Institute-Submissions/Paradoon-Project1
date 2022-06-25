@@ -63,18 +63,41 @@ body {
     margin: 0;
 }
 
-#h1h {
+#s0 {
+    margin-top: 50px;
+}
+
+#h1hh {
     color: #9b9ea2;
     font-family: 'Ubuntu', sans-serif;
     font-size: 200%;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: bold;
+    padding: 10px;
+    max-width: 590px;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
+}
+
+#h1h {
+    color: #9b9ea2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+    margin-left: 50px;
+    margin-top: 50px;
     font-weight: bold;
     padding: 10px;
     width: 500px;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
+    max-width: 400px;
+}
+
+#h1h ul {
+    margin-bottom: 0px;
 }
 
 #h2h {
@@ -82,14 +105,16 @@ body {
     font-size: 200%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 0px;
+    margin-top: 0px;
 }
 
 #h2h ul {
-    padding: 0;
+    padding-top: 0;
     text-indent: 450px;
     margin-left: -800px;
+    margin-top: 0px;
 }
 
 #h2h li {
@@ -124,15 +149,32 @@ body {
     flex: 1 1 0;
 }
 
+#s1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #h3h {
     color: #9b9ea2;
     font-family: 'Ubuntu', sans-serif;
-    opacity: .2;
+    opacity: .3;
     font-size: 150%;
     font-weight: bold;
 }
 
 #h4h {
+    color: #9b9ea2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#h5h {
     color: #9b9ea2;
     font-family: 'Ubuntu', sans-serif;
     font-size: 150%;
@@ -146,17 +188,11 @@ body {
     line-height: 50px;
 }
 
-#s0 {
-    margin-top: 50px;
+#s2 {
+    margin-top: 150px;
 }
 
-/* Section pieces - border: solid 10px #9b9ea2; background-color: #f3f3f3; */
-#s1 {
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-
-#p4 {
+#p3 {
     color: #9b9ea2;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -171,48 +207,64 @@ body {
     float: center;
 }
 
-#s2 {
-    margin-top: 150px;
-}
-
 #carve-box {
     display: flex;
 }
 
 #lct {
-    margin: 20px;
+    margin: -15px 2px 0 2px;
     padding: 0px 10px 10px 10px;
     flex: 1 1 0;
 }
 
 #cct {
-    margin: 20px;
+    margin: -15px 2px 0 2px;
     padding: 0px 10px 10px 10px;
     flex: 1 1 0;
 }
 
 #lci {
-    margin: 0px;
-    flex: 1;
+    margin: 15px 2px 0 2px;
+    flex: 1 1 0;
 }
 
 #cci {
-    margin: 0px;
-    flex: 1;
+    margin: 15px 2px 0 2px;
+    flex: 1 1 0;
 }
 
 .cavepaint {
-    width: 100%;
-    height: 25%;
+    width: 90%;
+    height: 50%;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
 .cavepaint2 {
-    width: 100%;
-    height: 25%;
+    width: 90%;
+    height: 50%;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
+}
+
+#s3 {
+    
+}
+
+#e1 {
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+
+#e1 a {
+    text-decoration: none;
+}
+
+.cavepaint1 {
+    width: 30%;
+    height: 30%;
+    float: right;
 }
