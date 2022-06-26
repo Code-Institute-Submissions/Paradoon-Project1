@@ -2,17 +2,37 @@
 
 header {
     background-color: #393e46;
-    padding: 0px;
     border-radius: 50px;
+    position: relative;
+    margin: auto;
 }
 
+#ho {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+
+#ho .ourdesign{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    display: block;
+}
+
+#ho a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    color: white;
+}
 
 .ourdesign {
     height: 30%;
     width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 #menu {
@@ -249,18 +269,65 @@ body {
     box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
+#h2hh {
+    color: #9b9ea2;
+    font-size: 250%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
 #e1 {
-    display: flex;
-    width: 300px;
+    width: 500px;
+    height: 300px;
+    position: relative;
     margin: auto;
+}
+
+#e1 .cavepaint1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
 #e1 a {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    color: white;
 }
 
-.cavepaint1 {
-    width: 30%;
-    height: 30%;
-    float: right;
+#lsc {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+#s3 {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 5px solid rgba(155, 158, 162, .3);
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+    left: 0pt;
+    height: 40px;
+}
+
+footer a {
+    color: #d0d0d0;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #393e46;
 }
