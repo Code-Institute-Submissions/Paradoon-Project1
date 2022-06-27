@@ -81,6 +81,7 @@ header {
     padding-bottom: 0px;
     color: white;
     border: 5px solid white;
+    box-shadow: 0 0 0 1px gold;
 }
 
 body {
@@ -306,6 +307,13 @@ body {
     color: white;
 }
 
+#e1 .cavepaint1:hover {
+    background-size: 0 3px, 100% 3px;
+    background-color: #d0d0d0;
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
+    color: #d0d0d0;
+  }
+
 #lsc {
     position: absolute;
     top: 40%;
@@ -317,24 +325,22 @@ body {
 }
 
 footer {
-    background-color: transparent;
     position: relative;
     margin: auto;
     width: 100%;
-    background-attachment: scroll;
-    background-position: 0% 0%;
     bottom: 0pt;
     left: 0pt;
     height: 10px;
     padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 footer a {
-    color: #d0d0d0;
+    background-color: #393e46;
     text-align: center;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
-    text-decoration: none;
+    text-decoration-line: none;
     padding: 5px 15px 5px 15px;
 }
 
@@ -343,14 +349,18 @@ footer a {
     width: 1000px;
     border: 3px;
     padding-top: 0px;
+    font-size: 100%;
 }
 
 #fi a {
     text-indent: 40px;
     margin-left: 70px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
 }
   
 #fi a:hover {
     background-size: 0 3px, 100% 3px;
-    background-color: #393e46;
+    background-color: #d0d0d0;
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
   }
