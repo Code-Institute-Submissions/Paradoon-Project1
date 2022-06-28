@@ -1,5 +1,10 @@
 
 
+body {
+    padding: 0px;
+    margin: 0;
+}
+
 header {
     background-color: #393e46;
     border-radius: 50px;
@@ -7,7 +12,7 @@ header {
     margin: auto;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
-    width: 1650px;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -81,33 +86,33 @@ header {
     padding-bottom: 0px;
     color: white;
     border: 5px solid white;
-    box-shadow: 0 0 0 1px gold;
+    box-shadow: 0 0 0 1.5px grey;
 }
 
-body {
-    padding: 0px;
-    margin: 0;
-}
 
-#s0 {
-    margin-top: 50px;
-}
-
-#h1hh {
-    color: #9b9ea2;
+#h1 {
+    color: #474747;
     font-family: 'Ubuntu', sans-serif;
     font-size: 200%;
-    margin: auto;
-    margin-top: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px 20px 10px 20px;
     max-width: 590px;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
-#h1h {
+#h1text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#h3 {
     color: #9b9ea2;
     font-family: 'Ubuntu', sans-serif;
     font-size: 150%;
@@ -126,31 +131,26 @@ body {
     margin-bottom: 0px;
 }
 
-#h2h {
-    color: #9b9ea2;
+#h2 {
+    color: white;
     font-size: 200%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 0px;
     margin-top: 0px;
+    text-align: center;
 }
 
-#h2h ul {
-    padding-top: 0;
-    text-indent: 450px;
-    margin-left: -800px;
+#h3 {
+    color: grey;
+    font-size: 200%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0px;
     margin-top: 0px;
-}
-
-#h2h li {
-    display: inline-block;
-}
-
-#h2h a {
-    margin: 0px;
-    padding: 10px;
-    flex: 1 1 0;
+    text-align: center;
 }
 
 #textbox {
@@ -186,45 +186,43 @@ body {
     background-color: #393e46;
 }
 
-#h3h {
-    color: #9b9ea2;
+#h4 {
+    color: #dedede;
     font-family: 'Ubuntu', sans-serif;
-    opacity: .3;
-    font-size: 150%;
+    font-size: 160%;
     font-weight: bold;
+    margin-top: 50px;
 }
 
-#h4h {
-    color: #9b9ea2;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 150%;
-    font-weight: bold;
-}
-
-#h5h {
-    color: #9b9ea2;
+#h5 {
+    color: #474747;
     font-family: 'Ubuntu', sans-serif;
     font-size: 150%;
     font-weight: bold;
 }
 
-#p2 {
-    color: #9b9ea2;
+#p1 {
+    color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    font-size: 120%;
 }
+
 
 #s2 {
     margin-top: 150px;
 }
 
-#p3 {
-    color: #9b9ea2;
+#p2 {
+    color: #474747;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     text-align: left;
-    width: 500px;
+    width: 100%;
     border-style: solid 5px #9b9ea2;
     border-radius: 8px;
     margin-left: 30px;
@@ -236,6 +234,9 @@ body {
 
 #carve-box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #lct {
@@ -261,83 +262,72 @@ body {
 }
 
 .cavepaint {
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
 .cavepaint2 {
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     box-shadow: 4px 4px 4px 4px #d0d0d0;
 }
 
-#h2hh {
-    color: #9b9ea2;
-    font-size: 250%;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-}
 
-#e1 {
-    width: 500px;
-    height: 300px;
-    position: relative;
-    margin: auto;
-}
-
-#e1 .cavepaint1 {
-    width: 100%;
-    height: 100%;
-    border-radius: 50px;
-    border: 10px solid rgba(155, 158, 162, .3);
-    box-shadow: 4px 4px 4px 4px #d0d0d0;
-}
-
-#e1 a {
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    color: white;
-}
-
-#e1 .cavepaint1:hover {
-    background-size: 0 3px, 100% 3px;
-    background-color: #d0d0d0;
-    box-shadow: 4px 4px 4px 4px #d0d0d0;
-    color: #d0d0d0;
-  }
-
-#lsc {
-    position: absolute;
-    top: 40%;
-    left: 20%;
-}
+/* - Section 3 content, image+text hyperlink to packages site
+- Make hyperlink darker on hover
+- Make hyperlink only target image area
+- */
 
 #s3 {
     margin-bottom: 100px;
 }
 
-footer {
+#h2hh {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#e1 {
     position: relative;
+}
+
+#lsc {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}
+
+.cavepaint1 {
+    width: 30%;
+    height: auto;
+    border-radius: 50px;
+    border: 10px solid rgba(155, 158, 162, .3);
+    box-shadow: 4px 4px 4px 4px #d0d0d0;
+    display: block;
     margin: auto;
-    width: 100%;
-    bottom: 0pt;
-    left: 0pt;
-    height: 10px;
-    padding-bottom: 15px;
+}
+
+#e1 .cavepaint1:hover {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 0 4px #d0d0d0;
+    color: #d0d0d0;
+  }
+
+
+/* - Footer content - */
+
+footer {
     margin-bottom: 30px;
 }
 
 footer a {
     background-color: #393e46;
-    text-align: center;
     border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
     text-decoration-line: none;
@@ -345,22 +335,22 @@ footer a {
 }
 
 #fi {
-    margin: auto;
-    width: 1000px;
+    width: auto;
     border: 3px;
     padding-top: 0px;
-    font-size: 100%;
+    text-align: center;
 }
 
 #fi a {
-    text-indent: 40px;
-    margin-left: 70px;
+    margin: auto;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
-}
-  
-#fi a:hover {
-    background-size: 0 3px, 100% 3px;
-    background-color: #d0d0d0;
+    color: #d0d0d0;
     box-shadow: 4px 4px 4px 4px #d0d0d0;
-  }
+}
+
+#fi a:hover {
+    box-shadow: 0 0 0 4px #d0d0d0;
+    color: white;
+}
+
