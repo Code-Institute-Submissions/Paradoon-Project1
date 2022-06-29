@@ -89,20 +89,22 @@ header {
     box-shadow: 0 0 0 1.5px grey;
 }
 
+/* rgb(217, 217, 217) 5% */
+
+#s0 {
+    padding-top: 50px;
+    background-image: linear-gradient(to left, white 10%, #393e46 10%, white 10%);
+    padding-bottom: 50px;
+}
 
 #h1 {
-    color: #474747;
+    background: -webkit-linear-gradient(left,#393e46, #616161 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 200%;
-    margin-left: 100px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 50px;
     font-weight: bold;
-    padding: 20px 20px 10px 20px;
-    max-width: 590px;
-    border-radius: 50px;
-    border: 10px solid rgba(155, 158, 162, .3);
-    box-shadow: 4px 4px 4px 4px #d0d0d0;
-    background-image: linear-gradient(to right, rgb(217, 217, 217) 30%, white 68%);
 }
 
 #h1text {
@@ -190,7 +192,6 @@ header {
 #h4 {
     color: #dedede;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 160%;
     font-weight: bold;
     margin-top: 50px;
 }
@@ -198,8 +199,8 @@ header {
 #h5 {
     color: #474747;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 150%;
     font-weight: bold;
+    text-align: center;
 }
 
 #p1 {
@@ -210,7 +211,6 @@ header {
     padding-top: 10px;
     padding-bottom: 0px;
     margin-top: 0px;
-    font-size: 120%;
 }
 
 
@@ -233,33 +233,28 @@ header {
     float: center;
 }
 
-#carve-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
 #lct {
-    margin: -15px 2px 0 2px;
-    padding: 0px 10px 10px 10px;
-    flex: 1 1 0;
+    margin: 0 2px 0 2px;
 }
 
-#cct {
-    margin: -15px 2px 0 2px;
-    padding: 0px 10px 10px 10px;
-    flex: 1 1 0;
+#carve-box {
+    display: inline-block;
 }
 
 #lci {
-    margin: 15px 2px 0 2px;
-    flex: 1 1 0;
+    float: left;
+    width: 45%;
+    padding-right: 30px;
 }
 
 #cci {
-    margin: 15px 2px 0 2px;
-    flex: 1 1 0;
+    float: left;
+    width: 45%;
+}
+
+#cct {
+    float: left;
+
 }
 
 .cavepaint {
@@ -314,10 +309,15 @@ header {
     margin: auto;
 }
 
-#e1 .cavepaint1:hover {
+.cavepaint1:hover {
     background-color: #d0d0d0;
     box-shadow: 0 0 0 4px #d0d0d0;
-    color: #d0d0d0;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
   }
 
 
