@@ -338,42 +338,101 @@ header {
 #s5 {
     border-top: 1px solid rgba(155, 158, 162, .3);
     width: 100%;
-    background-image: linear-gradient(to right, white 2%, #d8dbde 10%, #d8dbde 50%, white 70%);
+    background: rgb(216,219,222);
+    background: linear-gradient(90deg, rgba(216,219,222,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(216,219,222,1) 100%);
+    padding-bottom: 150px;
+    padding-top: 50px;
 }
 
 #h6 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    margin-top: 0px;
 }
 
 #packs {
     border: 2px solid transparent;
-    display: inline-block;
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* - Copied box-shadow for .silver from getsscan.com */
+.silver {
+    color: silver;
+    border: 2px solid silver;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 10em;
+    flex: 1 1 0;
+    padding: 5px;
+    height: 24em;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 #silverli {
-
-}
-
-.silver {
-    color: silver;
-    border: 2px ridge silver;
-    width: 10em;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 .silver #h6 {
     color: silver;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-.golden #h6 {
-    color: yellow;
+.premium {
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 10em;
+    padding: 5px;
+    flex: 1 1 0;
+    height: 27em;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#premiumli {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.premium #h6 {
+    color: darkslategray;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.exclusive {
+    color: gold;
+    border: 2px solid gold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 10em;
+    padding: 5px;
+    flex: 1 1 0;
+    height: 30em;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#exclusiveli {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 .exclusive #h6 {
     color: gold;
-    box-shadow: 1px 1px 1px 1px #deff71;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -384,7 +443,9 @@ header {
 - */
 
 footer {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: 1px solid silver;
 }
 
 footer a {
