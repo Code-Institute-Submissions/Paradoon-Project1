@@ -44,14 +44,13 @@ header {
 }
 
 #menu {
-    font-size: 230%;
+    font-size: 100%;
     letter-spacing: 3px;
     list-style: none;
     text-align: center;
     background-color: #393e46;
     border-radius: 0 0 50px 50px;
     padding: 5px;
-    text-indent: 50px;
     margin-bottom: 5px;
 }
 
@@ -98,13 +97,16 @@ header {
 }
 
 #h1 {
-    background: -webkit-linear-gradient(#393e46 50%, #616161 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     margin-left: 80px;
     font-weight: bold;
+}
+
+.h1head {
+    background: -webkit-linear-gradient(#393e46 50%, #616161 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #h1text {
@@ -323,25 +325,28 @@ header {
 
 #s4 {
     padding-top: 50px;
-    background-image: linear-gradient(to right, white 2%, #d8dbde 10%, #d8dbde 50%, white 70%);
+    background-image: linear-gradient(to bottom right, white 10%, #e7e7e7 50%, white 100%);
     padding-bottom: 50px;
     width: 100%;
 }
 
 #s4intro {
     width: 500px;
+    background: -webkit-linear-gradient(#393e46 10%, #616161 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
 /* - Page 2, section 2 */
 
-#s5 {
+s5 {
     border-top: 1px solid rgba(155, 158, 162, .3);
     width: 100%;
     background: rgb(216,219,222);
     background: linear-gradient(90deg, rgba(216,219,222,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(216,219,222,1) 100%);
     padding-bottom: 150px;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 #h6 {
@@ -357,6 +362,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding-top: 50px;
 }
 
 /* - Copied box-shadow for .silver from getsscan.com */
@@ -367,9 +373,10 @@ header {
     width: 10em;
     flex: 1 1 0;
     padding: 5px;
-    height: 24em;
+    height: 27em;
     margin-left: 70px;
     margin-right: 70px;
+    background-color: white;
 }
 
 #silverli {
@@ -385,16 +392,29 @@ header {
     font-weight: bold;
 }
 
+#silverli a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid silver;
+    margin: auto;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    color: #d0d0d0;
+    box-shadow: 0 0 0 4px #d0d0d0;
+    border-radius: 50px;
+}
+
 .premium {
     color: darkslategray;
-    border: 2px solid darkslategray;
+    border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 10em;
     padding: 5px;
     flex: 1 1 0;
-    height: 27em;
+    height: 28em;
     margin-left: 70px;
     margin-right: 70px;
+    background-color: white;
 }
 
 #premiumli {
@@ -410,9 +430,28 @@ header {
     font-weight: bold;
 }
 
+.prembtn {
+    border: 2px solid #393e46;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    background-color: white;
+    float: right;
+    border-radius: 2%;
+    font-size: 1vw;
+}
+
+.prembtn a {
+    text-decoration: none;
+}
+
+.premium:hover {
+    border: 2px solid white;
+    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
+}
+
 .exclusive {
-    color: gold;
-    border: 2px solid gold;
+    color: black;
+    border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 10em;
     padding: 5px;
@@ -420,6 +459,7 @@ header {
     height: 30em;
     margin-left: 70px;
     margin-right: 70px;
+    background-color: white;
 }
 
 #exclusiveli {
@@ -446,6 +486,8 @@ footer {
     padding-bottom: 30px;
     padding-top: 30px;
     border-top: 1px solid silver;
+    background: rgb(216,219,222);
+    background: linear-gradient(90deg, rgba(216,219,222,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(216,219,222,1) 100%);
 }
 
 footer a {
