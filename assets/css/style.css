@@ -390,14 +390,31 @@ packs {
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
+    float: left;
     
 }
 
 .silver #h6 {
-    color: darkslategray;
+    color: silver;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
+    border: 2px solid lightgray;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 50px;
+    margin-top: 1%;
+}
+
+#p3 {
+    color: silver;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+
 }
 
 .silvbtn {
@@ -406,11 +423,15 @@ packs {
     border: 2px solid silver;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
-    color: #d0d0d0;
-    box-shadow: 0 0 0 4px white;
     border-radius: 50px;
-    float: center;
+    padding: 10px;
 }
+
+.silvbtn a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .silver:hover {
     border: 2px solid white;
@@ -435,6 +456,8 @@ packs {
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
+    width: 150px;
+    margin: 0;
 }
 
 .premium #h6 {
@@ -442,6 +465,11 @@ packs {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+    border: 2px solid lightgray;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 50px;
+    margin-top: 1%;
 }
 
 .prembtn {
@@ -453,14 +481,13 @@ packs {
     color: #d0d0d0;
     box-shadow: 0 0 0 4px white;
     border-radius: 50px;
-    float: right;
+    margin-left: 50%;
     font-size: 1vw;
 }
 
 .prembtn a {
     text-decoration: none;
     color: black;
-    float: center;
 }
 
 .premium:hover {
@@ -497,6 +524,11 @@ packs {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
+    border: 2px solid lightgray;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 50px;
+    margin-top: 1%;
 }
 
 .exclusive:hover {
@@ -529,6 +561,11 @@ packs {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
+    border: 2px solid lightgray;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 50px;
+    margin-top: 1%;
 }
 
 .exclusiveacc:hover {
