@@ -368,29 +368,18 @@ packs {
     padding-top: 50px;
 }
 
-.silverbox {
+.firstbox {
     display: flex;
 }
 
-.silverbg {
-    margin-left: 1%;
+/* - Copied box-shadow from getsscan.com */
+.silver {
+    color: darkslategray;
+    border: 2px solid silver;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 49%;
     height: auto;
-    background-color: white;
-    flex: 1;
-    border: 2px solid silver;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-/* - Copied box-shadow for .silver from getsscan.com */
-.silver {
-    color: silver;
-    border: 2px solid silver;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    width: 48%;
-    height: 27em;
     margin-left: 1%;
-    margin-right: 1%;
     background-color: white;
     flex: 1;
 }
@@ -399,49 +388,53 @@ packs {
     font-family: sans-serif;
     font-weight: bold;
     line-height: 25px;
+    list-style-type: circle;
+    font-size: 1vw;
+    
 }
 
 .silver #h6 {
-    color: silver;
+    color: darkslategray;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
 }
 
-#silverli a {
+.silvbtn {
     text-decoration: none;
     color: black;
     border: 2px solid silver;
-    margin: auto;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     color: #d0d0d0;
-    box-shadow: 0 0 0 4px #d0d0d0;
+    box-shadow: 0 0 0 4px white;
     border-radius: 50px;
-    margin-top: 20px;
+    float: center;
 }
 
-.premiumbg {
-    margin-left: 1%;
-    width: 49%;
-    height: auto;
-    background-color: white;
+.silver:hover {
+    border: 2px solid white;
+    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
 }
 
 .premium {
     color: darkslategray;
     border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    width: 49%;
-    padding: 5px;
-    height: 28em;
+    width: 48%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
     background-color: white;
+    flex: 1;
 }
 
 #premiumli {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 25px;
+    list-style-type: circle;
+    font-size: 1vw;
 }
 
 .premium #h6 {
@@ -452,17 +445,22 @@ packs {
 }
 
 .prembtn {
-    border: 2px solid #393e46;
-    transition-duration: 0.4s;
     text-decoration: none;
-    background-color: white;
+    color: black;
+    border: 2px solid silver;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    color: #d0d0d0;
+    box-shadow: 0 0 0 4px white;
+    border-radius: 50px;
     float: right;
-    border-radius: 2%;
     font-size: 1vw;
 }
 
 .prembtn a {
     text-decoration: none;
+    color: black;
+    float: center;
 }
 
 .premium:hover {
@@ -470,30 +468,28 @@ packs {
     box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
 }
 
-.exclusivebg {
-    margin-left: 1%;
-    width: 49%;
-    height: auto;
-    background-color: white;
+.secondbox {
+    display: flex;
+    margin-top: 1%;
 }
 
 .exclusive {
     color: black;
     border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    width: 10em;
-    padding: 5px;
-    flex: 1 1 0;
-    height: 30em;
-    margin-left: 70px;
-    margin-right: 70px;
+    width: 49%;
+    height: auto;
+    margin-left: 1%;
     background-color: white;
+    flex: 1;
 }
 
 #exclusiveli {
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     line-height: 25px;
+    list-style-type: circle;
+    font-size: 1vw;
 }
 
 .exclusive #h6 {
@@ -503,7 +499,42 @@ packs {
     font-weight: bold;
 }
 
+.exclusive:hover {
+    border: 2px solid white;
+    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
+}
 
+.exclusiveacc {
+    color: black;
+    border: 2px solid silver;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 48%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: white;
+    flex: 1;
+}
+
+#exclusiveaccli {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    list-style-type: circle;
+    font-size: 1vw;
+}
+
+.exclusiveacc #h6 {
+    color: gold;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+}
+
+.exclusiveacc:hover {
+    border: 2px solid white;
+    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
+}
 
 
 /* - Footer content 
