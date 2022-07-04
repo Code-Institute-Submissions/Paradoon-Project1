@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webpage that sells webpages">
+    <meta name="keywords" content="webpage, hemsida, hemsidor, bygg, företag, business, webpages, homepage, internet, online">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>OurDesign</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@1&family=Ubuntu:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="ho"><a href="index.html">
+            <img src="./assets/images/logo.png" alt="OurDesign" class="ourdesign"></div> 
+        </a>
+        <nav>
+            <ul id="menu"><li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="packages.html">Packages</a>
+                </li>
+                <li>
+                    <a href="order.html">Order</a>
+                </li>
+                <li>
+                    <a href="about.html">About us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="s4">
+            <div id="s4intro">
+                <h1 id="h1">Place your order
+                <p id="h1text">Select package and apply information.
+                Fill in the forms to receive information about prices, timeline, and expected date for your website to go live.
+            </p></h1></div>
+                <div class="orderbox">
+                        <h1 id="h7">Order</h1>
+                        <div class="ordform">
+                            <form action="mailto:info@vardesign.se" method="POST" enctype="text/plain">
+                                <p id="p4">Select package below</p>
+                                <input type="radio" id="s-pack" name="package" value="package" required>
+                                <label for="s-pack">Silver Package</label>
+                                <input type="radio" id="p-pack" name="package" value="package">
+                                <label for="p-pack">Premium Package</label>
+                                <input type="radio" id="e-pack" name="package" value="package">
+                                <label for="e-pack">Exclusive Package</label>
+                                <input type="radio" id="ea-pack" name="package" value="package">
+                                <label for="ea-pack">Exclusive+Account Package</label>
+
+                                <p id="p4">Do you have high resolution images for the website?</p>
+                                <input type="radio" id="hri" name="hri" value="hri" required>
+                                <label for="hri">Yes</label>
+                                <input type="radio" id="hri" name="hri" value="hri">
+                                <label for="hri">No, would like to order it too</label>
+
+                                <p id="p4">Do you have a company logo for the website?</p>
+                                <input type="radio" id="cl" name="cl" value="cl" required>
+                                <label for="cl">Yes</label>
+                                <input type="radio" id="cl" name="cl" value="cl">
+                                <label for="cl">No, would like to order it too</label>
+
+                                <p id="p4">First Name</p>
+                                <input type="text" id="fname" name="firstname" placeholder="First name" required>
+                                <p id="p4">Last Name</p>
+                                <input type="text" id="lname" name="firstname" placeholder="Last name" required>
+                                <p id="p4">Company Name</p>
+                                <input type="text" id="cname" name="companyname" placeholder="Legal company name" required>
+                                <p id="p4">Phone Number (including country code)</p>
+                                <input type="text" id="phone" name="phonenumber" placeholder="Phone number" required>
+                                <p id="p4">Email Address</p>
+                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                <p id="p4">Additional information or questions you would like to add</p>                       
+                                <textarea type="text" id="subject" name="subject" placeholder="Additional information..."></textarea>
+                                </textarea><br>
+                                <input type="submit" value="Order">
+                            </form>
+                        <p id="p4"></p>
+                    </div>
+                </div>
+    </section>
+    
+    <footer>
+        <div id="fi">
+        <a href="order.html">To the top &nbsp;<i class="fa-solid fa-arrow-up"></i></a>
+        <a href="www.facebook.com" target="_blank">Facebook &nbsp;<i class="fa-brands fa-facebook-f"></i></a>
+        <a href="www.instagram.com" target="_blank">Instagram &nbsp;<i class="fa-brands fa-instagram"></i></a>
+        <a href="www.twitter.com" target="_blank">Twitter &nbsp;<i class="fa-brands fa-twitter"></i></a></h2>
+            </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/0a5ed0a61d.js" crossorigin="anonymous"></script>
+</body>
+</html>
