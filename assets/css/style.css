@@ -340,21 +340,10 @@ header {
     margin: auto;
 }
 
-
-/* - Page 2, section 2 */
-
-s5 {
-    border-top: 1px solid rgba(155, 158, 162, .3);
-    width: 100%;
-    background: rgb(216,219,222);
-    background: linear-gradient(90deg, rgba(216,219,222,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(216,219,222,1) 100%);
-    padding-bottom: 150px;
-    padding-top: 150px;
-}
-
 #h6 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+    font-size: 1.5vw;
 }
 
 packs {
@@ -385,57 +374,52 @@ packs {
 }
 
 #silverli {
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
     float: left;
-    
 }
 
 .silver #h6 {
-    color: silver;
+    color: darkslategray;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    border: 2px solid lightgray;
-    margin-right: 35%;
-    margin-left: 35%;
+    border: 2px solid silver;
+    margin-right: 34%;
+    margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
 }
 
-#p3 {
-    color: silver;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    line-height: 50px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    float: right;
-
-}
-
 .silvbtn {
-    text-decoration: none;
     color: black;
     border: 2px solid silver;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     border-radius: 50px;
     padding: 10px;
+    float: clear;
+    margin-top: 50%;
+    margin-left: 21%;
+    font-size: 1vw;
 }
 
 .silvbtn a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
+.silvbtn:hover {
+    border: 2px solid black;
+    background-color: white;
+}
 
 .silver:hover {
     border: 2px solid white;
-    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
 }
 
 .premium {
@@ -456,8 +440,7 @@ packs {
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
-    width: 150px;
-    margin: 0;
+    float: left;
 }
 
 .premium #h6 {
@@ -466,8 +449,8 @@ packs {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     border: 2px solid lightgray;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-right: 34%;
+    margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
 }
@@ -478,21 +461,27 @@ packs {
     border: 2px solid silver;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
-    color: #d0d0d0;
-    box-shadow: 0 0 0 4px white;
     border-radius: 50px;
-    margin-left: 50%;
+    padding: 10px;
+    float: clear;
+    margin-top: 50%;
+    margin-left: 22%;
     font-size: 1vw;
 }
 
 .prembtn a {
     text-decoration: none;
     color: black;
+    padding: 10px;
+}
+
+.prembtn:hover {
+    border: 2px solid black;
+    background-color: white;
 }
 
 .premium:hover {
     border: 2px solid white;
-    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
 }
 
 .secondbox {
@@ -501,7 +490,7 @@ packs {
 }
 
 .exclusive {
-    color: black;
+    color: darkslategray;
     border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 49%;
@@ -512,32 +501,56 @@ packs {
 }
 
 #exclusiveli {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
+    float: left;
 }
 
 .exclusive #h6 {
-    color: gold;
+    color: darkslategray;
     text-align: center;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    border: 2px solid lightgray;
-    margin-right: 35%;
-    margin-left: 35%;
+    border: 2px solid silver;
+    margin-right: 34%;
+    margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
 }
 
+.exclbtn {
+    color: black;
+    border: 2px solid silver;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    float: clear;
+    margin-top: 50%;
+    margin-left: 21%;
+    font-size: 1vw;
+}
+
+.exclbtn a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.exclbtn:hover {
+    border: 2px solid black;
+    background-color: white;
+}
+
 .exclusive:hover {
     border: 2px solid white;
-    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
 }
 
 .exclusiveacc {
-    color: black;
+    color: darkslategray;
     border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 48%;
@@ -548,29 +561,70 @@ packs {
     flex: 1;
 }
 
-#exclusiveaccli {
-    font-family: 'Playfair Display', sans-serif;
+#accli {
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
     font-size: 1vw;
+    float: left;
+    margin-top: 0px;
 }
 
 .exclusiveacc #h6 {
-    color: gold;
+    color: darkslategray;
     text-align: center;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     border: 2px solid lightgray;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-right: 34%;
+    margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
 }
 
+.accbtn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid silver;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    float: clear;
+    margin-top: 50%;
+    margin-left: 22%;
+    font-size: 1vw;
+}
+
+.accbtn a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.accbtn:hover {
+    border: 2px solid black;
+    background-color: white;
+}
+
 .exclusiveacc:hover {
     border: 2px solid white;
-    box-shadow: rgb(255, 255, 255) 0px 14px 28px, rgb(255, 255, 255) 0px 10px 10px;
+}
+
+/* - Text inside the boxes - */
+
+#p3 {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    float: right;
+    width: 250px;
+    margin-right: 20px;
+    text-align: right;
 }
 
 
