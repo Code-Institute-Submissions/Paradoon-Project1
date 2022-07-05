@@ -333,7 +333,7 @@ header {
 }
 
 #s4intro {
-    width: 700px;
+    width: 100%;
     background: -webkit-linear-gradient(#393e46 10%, #616161 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -687,6 +687,15 @@ input[type=submit]:hover {
 
 /* - Page 4 - About us - */
 
+#h8 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    margin-left: 80px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #393e46;
+}
+
 .aubox {
     border: 2px solid silver;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -694,17 +703,21 @@ input[type=submit]:hover {
     height: auto;
     margin: auto;
     background-color: white;
+    border-radius: 20px;
+    padding: 0 0 5% 0;
 }
 
 .aubox1 {
     display: inline-block;
-    border: 2px solid silver;
+    border: 5px solid #393e46;
     margin: 5% 0;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .aubox2 {
     display: inline-block;
-    border: 2px solid silver;
+    border: 5px solid #393e46;
 }
 
 .auboximg1 {
@@ -728,12 +741,23 @@ input[type=submit]:hover {
     height: auto;
 }
 
+/* - Page2, Section 5 (in total) - */
+
 #s5 {
     margin-top: 10%;
 }
 
 .s5box {
     display: block;
+    position: relative;
+}
+
+.s5text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 45%;
 }
 
 .cavebg {
@@ -743,15 +767,12 @@ input[type=submit]:hover {
     margin: auto;
     border: 5px solid silver;
     border-radius: 25px;
-    position: relative;
 }
 
 #p5 {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    position: absolute;
-    bottom: 50%;
 }
 
 /* - Footer content 
