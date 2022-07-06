@@ -352,6 +352,27 @@ header {
 }
 
 /* - Copied box-shadow from getsscan.com */
+
+@media screen and (max-width: 320px) {
+    .silver {
+        float: clear;
+        margin: auto;
+    }
+    .premium {
+        float: clear;
+        margin: auto;
+    }
+    .exclusive {
+        float: clear;
+        margin: auto;
+    }
+    .exclusiveacc {
+        float: clear;
+        margin: auto;
+    }
+
+}
+
 .silver {
     color: #393e46;
     border: 2px solid silver;
