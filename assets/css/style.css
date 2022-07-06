@@ -173,21 +173,21 @@ header {
 }
 
 #left-box {
-    margin: 20px;
     padding: 0px 10px 10px 10px;
     flex: 1 1 0;
+    width: 100%;
 }
 
 #center-box {
-    margin: 20px;
     padding: 0px 10px 10px 10px;
     flex: 1 1 0;
+    width: 100%;
 }
 
 #right-box {
-    margin: 20px;
     padding: 0px 10px 10px 10px;
     flex: 1 1 0;
+    width: 100%;
 }
 
 #h4 {
@@ -238,25 +238,21 @@ header {
 #carve-box {
     display: inline-block;
     width: 100%;
-}
-
-#lct {
-    float: left;
+    margin: auto;
+    text-align: center;
 }
 
 #lci {
     float: left;
     width: 40%;
     padding-right: 50px;
+    margin: auto;
 }
 
 #cci {
     float: left;
     width: 45%;
-}
-
-#cct {
-    float: left;
+    margin: auto;
 }
 
 .cavepaint {
@@ -344,34 +340,58 @@ header {
 #h6 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 1.5vw;
 }
 
 .firstbox {
     width: 100%;
+    margin: auto;
+    display: inline-block;
 }
 
-/* - Copied box-shadow from getsscan.com */
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .silver {
-        float: clear;
+        float: none;
         margin: auto;
     }
     .premium {
-        float: clear;
+        float: none;
         margin: auto;
     }
     .exclusive {
-        float: clear;
+        float: none;
         margin: auto;
     }
     .exclusiveacc {
-        float: clear;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .silver {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .premium {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .exclusive {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .exclusiveacc {
+        width: 100%;
+        float: none;
         margin: auto;
     }
 
 }
+
+/* - Copied box-shadow from getsscan.com */
 
 .silver {
     color: #393e46;
@@ -389,7 +409,6 @@ header {
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
-    font-size: 1vw;
     float: left;
 }
 
@@ -449,7 +468,6 @@ header {
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
-    font-size: 1vw;
     float: left;
 }
 
@@ -495,10 +513,10 @@ header {
 }
 
 .secondbox {
-    display: inline-block;
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
+    display: inline-block;
 }
 
 .exclusive {
@@ -516,7 +534,6 @@ header {
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
-    font-size: 1vw;
     float: left;
 }
 
@@ -575,7 +592,6 @@ header {
     font-weight: bold;
     line-height: 25px;
     list-style-type: circle;
-    font-size: 1vw;
     float: left;
     margin-top: 0px;
 }
@@ -621,8 +637,6 @@ header {
     border: 2px solid white;
 }
 
-/* - Text inside the boxes - */
-
 #p3 {
     color: black;
     font-family: 'Ubuntu', sans-serif;
@@ -632,8 +646,6 @@ header {
     margin-top: 0px;
     float: right;
     width: 100%;
-    margin-right: 20px;
-    text-align: right;
     max-width: 300px;
 }
 
@@ -783,11 +795,10 @@ input[type=submit]:hover {
 .karlpic {
     width: 100%;
     height: auto;
-    margin
 }
 
 .humpic {
-    width: 100%;
+    width: 100%; 
     height: auto;
 }
 
@@ -831,19 +842,18 @@ input[type=submit]:hover {
 - */
 
 footer {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 2%;
+    padding-top: 2%;
     border-top: 1px solid silver;
-    background: rgb(216,219,222);
     background: linear-gradient(90deg, rgba(216,219,222,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(216,219,222,1) 100%);
 }
 
 footer a {
     background-color: #393e46;
     border-radius: 50px;
-    border: 10px solid rgba(155, 158, 162, .3);
+    border: 5px solid rgba(155, 158, 162, .3);
     text-decoration-line: none;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px 5px 10px;
 }
 
 #fi {
