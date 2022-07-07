@@ -244,15 +244,17 @@ header {
 
 #lci {
     float: left;
-    width: 40%;
-    padding-right: 50px;
+    width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 #cci {
-    float: left;
-    width: 45%;
+    width: 48%;
     margin: auto;
+    height: auto;
+    float: right;
+    text-align: center;
 }
 
 .cavepaint {
@@ -346,49 +348,6 @@ header {
     width: 100%;
     margin: auto;
     display: inline-block;
-}
-
-@media screen and (max-width: 350px) {
-    .silver {
-        float: none;
-        margin: auto;
-    }
-    .premium {
-        float: none;
-        margin: auto;
-    }
-    .exclusive {
-        float: none;
-        margin: auto;
-    }
-    .exclusiveacc {
-        float: none;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .silver {
-        width: 100%;
-        float: none;
-        margin: auto;
-    }
-    .premium {
-        width: 100%;
-        float: none;
-        margin: auto;
-    }
-    .exclusive {
-        width: 100%;
-        float: none;
-        margin: auto;
-    }
-    .exclusiveacc {
-        width: 100%;
-        float: none;
-        margin: auto;
-    }
-
 }
 
 /* - Copied box-shadow from getsscan.com */
@@ -616,10 +575,10 @@ header {
     font-weight: bold;
     border-radius: 50px;
     padding: 10px;
-    float: clear;
+    float: none;
     margin-top: 50%;
     margin-left: 22%;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .accbtn a {
@@ -637,16 +596,67 @@ header {
     border: 2px solid white;
 }
 
+.pp3 {
+    float: right;
+    max-width: 211px;
+    border: 3px solid silver;
+    border-radius: 50px;
+    padding: 10px 10px 0px 15px;
+    text-align: center;
+    height: auto;
+    background-color: #393e46;
+}
+
 #p3 {
-    color: black;
+    color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     line-height: 25px;
     padding-bottom: 0px;
     margin-top: 0px;
-    float: right;
     width: 100%;
-    max-width: 300px;
+}
+
+@media screen and (max-width: 400px) {
+    .firstbox {
+        display: block;
+    }
+    .silver {
+        height: 700px;
+    }
+    .premium {
+        height: 900px;
+    }
+    .exclusive {
+        height: 900px;
+    }
+    .exclusiveacc {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .silver {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .premium {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .exclusive {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .exclusiveacc {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
 }
 
 /* - Page 3 Order, Order form */
