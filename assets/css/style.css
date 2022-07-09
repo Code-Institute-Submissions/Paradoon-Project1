@@ -317,7 +317,6 @@ a:visited {
 }
 
 /* - Section 3 content, image+text hyperlink to packages site
-- Make hyperlink darker on hover
 - Make hyperlink only target image area
 - */
 
@@ -716,7 +715,7 @@ input[type=submit] {
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     padding: 5px;
-    margin-left: 38%;
+    margin-left: 45%;
     cursor: pointer;
     margin-top: 5%;
 }
