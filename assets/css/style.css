@@ -438,23 +438,23 @@ a:visited {
     margin-top: 1%;
 }
 
-.silvbtn {
+.packagebtn {
     border: 2px solid #C0C0C0;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     border-radius: 50px;
     padding: 10px;
     margin-top: 50%;
-    margin-left: 29%;
+    margin-left: 24%;
 }
 
-.silvbtn a {
+.packagebtn a {
     text-decoration: none;
     color: black;
     padding: 10px;
 }
 
-.silvbtn:hover {
+.packagebtn:hover {
     border: 2px solid black;
     background-color: #FFFFFF;
 }
@@ -492,30 +492,6 @@ a:visited {
     margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
-}
-
-.prembtn {
-    text-decoration: none;
-    color: black;
-    border: 2px solid #C0C0C0;
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: bold;
-    border-radius: 50px;
-    padding: 10px;
-    float: clear;
-    margin-top: 50%;
-    margin-left: 29%;
-}
-
-.prembtn a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-
-.prembtn:hover {
-    border: 2px solid black;
-    background-color: #FFFFFF;
 }
 
 .premium:hover {
@@ -559,29 +535,6 @@ a:visited {
     margin-top: 1%;
 }
 
-.exclbtn {
-    color: black;
-    border: 2px solid #C0C0C0;
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: bold;
-    border-radius: 50px;
-    padding: 10px;
-    float: clear;
-    margin-top: 50%;
-    margin-left: 29%;
-}
-
-.exclbtn a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-
-.exclbtn:hover {
-    border: 2px solid black;
-    background-color: #FFFFFF;
-}
-
 .exclusive:hover {
     border: 2px solid #FFFFFF;
 }
@@ -615,28 +568,6 @@ a:visited {
     margin-left: 34%;
     border-radius: 50px;
     margin-top: 1%;
-}
-
-.accbtn {
-    border: 2px solid #C0C0C0;
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: bold;
-    border-radius: 50px;
-    padding: 10px;
-    float: none;
-    margin-top: 50%;
-    margin-left: 29%;
-}
-
-.accbtn a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-
-.accbtn:hover {
-    border: 2px solid black;
-    background-color: #FFFFFF;
 }
 
 .exclusiveacc:hover {
@@ -699,22 +630,7 @@ a:visited {
         margin-bottom: 3%;
     }
 
-    .silvbtn {
-        margin-top: 3%;
-        margin-left: 40%;
-    }
-
-    .prembtn {
-        margin-top: 3%;
-        margin-left: 40%;
-    }
-
-    .exclbtn {
-        margin-top: 3%;
-        margin-left: 40%;
-    }
-
-    .accbtn {
+    .packagebtn {
         margin-top: 3%;
         margin-left: 40%;
     }
