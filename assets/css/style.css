@@ -287,34 +287,22 @@ a:visited {
 - */
 
 #s3 {
-    margin-bottom: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-/* - hc = header carving - */
-#hc {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-}
-
-#e1 {
-    position: relative;
-}
-
-#lsc {
-    position: absolute;
-    top: 40%;
-    left: 43%;
-    color: #FFFFFF;
+a.lc {
+    display: block;
+    width: 30%;
+    margin: auto;
 }
 
 .cavepaint1 {
-    width: 30%;
+    width: 100%;
     height: auto;
-    border-radius: 50px;
     border: 10px solid rgba(155, 158, 162, .3);
+    border-radius: 50px;
     box-shadow: 4px 4px 4px 4px #d0d0d0;
-    display: block;
-    margin: auto;
 }
 
 /* - webkit from mentor Akshat Garg - */
@@ -330,12 +318,8 @@ a:visited {
 }
 
 @media screen and (max-width: 400px) {
-    .cavepaint1 {
-        width: 90%;
-        border: 5px solid rgba(155, 158, 162, .3);
-    }
-    #lsc {
-        left: 28%;
+    a.lc {
+        width: 70%;
     }
     #s3 {
         margin-top: 20%;
@@ -930,6 +914,10 @@ footer a {
 #fi a:hover {
     box-shadow: 0 0 0 4px #d0d0d0;
     color: #FFFFFF;
+}
+
+#p7 {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 400px) {
