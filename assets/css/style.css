@@ -124,10 +124,11 @@ a:visited {
 
 #h1text {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 80%;
+    font-size: 100%;
     margin-bottom: 20px;
     font-weight: bold;
     margin-top: 20px;
+    margin-left: 80px;
 }
 
 #h3 {
@@ -715,7 +716,7 @@ input[type=submit] {
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     padding: 5px;
-    margin-left: 45%;
+    margin-left: 44%;
     cursor: pointer;
     margin-top: 5%;
 }
