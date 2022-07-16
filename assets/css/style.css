@@ -703,11 +703,6 @@ input[type=submit]:hover {
     padding-bottom: 0.5%;
 }
 
-.fwimg {
-    width: 100%;
-    height: auto;
-}
-
 .fwtext {
     text-align: center;
 }
@@ -730,7 +725,8 @@ input[type=submit]:hover {
     padding: 10px;
     margin: auto;
     display: block;
-    margin-top: 0.5%;
+    margin-top: 18.5%;
+    margin-bottom: 0.5%;
 }
 
 .home a {
