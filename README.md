@@ -56,4 +56,37 @@ About us is the fourth page which allows the user to get to know the company and
 <ul><h4>* Sign up form</h4></ul>
 Sign up form on the "About us" page to let anyone apply for a position to work at OurDesign. 
 
+<h2>Testing</h2>
+I have run through the website several times, not only for testing but also for learning HTML and CSS. I've made every mistake that's possible which have helped me both to learn and also to test at the same time. The easiest way to put it, is that this website is built by 95% mistakes, bugs and testing and 5% success. Everything from adding images and resizing them, to displaying blocks and inline blocks with images and text to changing all colors to hex for faster loading. 
 
+<h3>Validator testing</h3>
+<li>HTML</li>
+No errors.
+<li>CSS</li>
+No errors with CSS level 3 + SVG.
+<h3>Unfixed bugs</h3>
+Due to the time spent with this project, I think there are none. I also changed layout/design several times if something didn't work or wasn't in line with my own vision. 
+
+
+<h2>Deployment</h2>
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+The live link can be found here - https://paradoon.github.io/Project1/
+
+<h2>Credits</h2>
+Primary credits go to: Code Institute and former student Björn Nilsson and students Jess_5P and Lilly Sunnegård_5P, also mentors Akshat Garg and Rohit for help with support and knowledge. 
+Secondary credits go to:<br>
+www.W3schools.com, www.stackoverflow.com and www.google.com. 
+<h3>Content</h3>
+Content is inspired from my own life experiences and discoveries. I wanted the page to look clean and easy with some "software look".<br>
+Company name is my own company name translated to english from swedish.<br>
+Secondly: www.looka.com for logo. www.fontawesome.com for icons and https://fonts.google.com/ for fonts. 
+<h3>Media</h3>
+Images used is either my own or taken from:<br>
+www.pixabay.com <br>
+www.pexels.com
+
+<h2>Own notes</h2>
+I wish I had the information upon starting this project about making the mobile version first and then using media query to make it work for computers for faster loading. Instead the other way around since I will probably use this website for my own company. 
