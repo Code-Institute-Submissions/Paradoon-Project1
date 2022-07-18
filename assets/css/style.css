@@ -230,6 +230,7 @@ a:visited {
     width: 100%;
     margin: auto;
     text-align: center;
+    margin-bottom: 1%;
 }
 
 #lci {
@@ -282,19 +283,13 @@ a:visited {
     }
 }
 
-/* - Section 3 content, image+text hyperlink to packages site
-- Make hyperlink only target image area
-- */
-
-#s3 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+/* - Section 3 content, image+text hyperlink to packages site - */
 
 a.lc {
     display: block;
     width: 30%;
     margin: auto;
+    margin-bottom: 1%;
 }
 
 .cavepaint1 {
@@ -320,9 +315,8 @@ a.lc {
 @media screen and (max-width: 400px) {
     a.lc {
         width: 70%;
-    }
-    #s3 {
-        margin-top: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 }
 
@@ -584,6 +578,22 @@ a.lc {
     .packagebtn {
         margin-top: 3%;
         margin-left: 40%;
+    }
+
+    #silverli {
+        font-size: 80%;
+    }
+
+    #premiumli {
+        font-size: 80%;
+    }
+
+    #exclusiveli {
+        font-size: 80%;
+    }
+
+    #accli {
+        font-size: 80%;
     }
 }
 
